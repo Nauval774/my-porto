@@ -1,0 +1,106 @@
+:root {
+  --primary: #303030;
+  --secondary: #005B60;
+  --third: #00ADAD;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'poppins', sans-serif;
+  color: #111;
+}
+
+.bubble {
+  backdrop-filter: blur(5px);
+  z-index: -4;
+  left: 500px;
+  bottom: 50px;
+  position: absolute;
+  padding: 5rem;
+  border-radius: 100%;
+  margin-top: 30rem;
+  background-color: var(--third);
+  width: 10rem;
+}
+
+.input-type {
+  text-align: center;
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input-type h1 {
+  font-size: 3rem;
+  color: var(--third);
+}
+
+.input-type p {
+  color: var(--primary);
+}
+
+.input-type input {
+  font-family: 'poppins', sans-serif;
+  font-size: 2rem;
+  color: var(--third);
+  text-align: center;
+  padding: 5px 10px;
+  border-bottom: 1px solid var(--third);
+  display: block;
+  margin: 5rem auto 3rem;
+}
+
+.input-type button {
+  font-family: 'poppins', sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  background-color: var(--third);
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+
+.input-type #namaInput {
+  font-size: 1.2rem;
+}
+
+
+
+/* media queries */
+
+/* laptop */
+@media (max-width: 1366px) {
+  
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+/* mobile */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+  .input-type input {
+    font-size: 1.4rem;
+  }
+}
