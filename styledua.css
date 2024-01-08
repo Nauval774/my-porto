@@ -98,6 +98,7 @@ body {
 /* mobile */
 @media (max-width: 450px) {
   html {
+    height: 100vh;
     font-size: 55%;
   }
   .input-type input {
