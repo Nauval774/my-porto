@@ -251,7 +251,7 @@ body {
 /* ---------contact----------- */
 
 .contact {
-  padding: 0 7%;
+  padding: 80px 7% 0;
   color: white;
   background-color: var(--third);
 }
